@@ -1,0 +1,25 @@
+{
+  "name": "vscode-git-extension-pack",
+  "displayName": "VS Code Git Extension Pack",
+  "description": "Popular Visual Studio Code extensions for Git authoring",
+  "version": "0.1.0",
+  "publisher": "ShaoYu",
+  "icon": "images/git.png",
+  "repository": "https://github.com/ShaoYuKao/vscode-git-extension-pack",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "git"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "mhutchie.git-graph",
+    "pomber.git-file-history",
+    "eamodio.gitlens",
+    "donjayamanne.githistory"
+  ]
+}
